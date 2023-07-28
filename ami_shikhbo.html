@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en,bn,">
+  <head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ami Shikhbo</title>
+    
+    <link rel="icon"href="">
+    
+    <link rel="stylesheet"href="AllPage.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+ <style>
+    /* This is a single-line comment */
+      header div{
+       position: relative;
+       width: 20%;
+       margin: auto;
+       margin-right:5%;
+       border-radius: 50px;
+       overflow: hidden;
+       background-image:linear-gradient(to left,#08b300,#fff,#fff,#08b300);
+     }
+     
+     header div::after{
+       content: '';
+       position: absolute;
+       inset: 0px;
+       background-image:linear-gradient(to top,#08b300,#00ccff00,#08b300);
+     }
+     
+     header div p{
+       text-align: center;
+       padding: .2em;
+       color:#000;
+     }
+      
+      main{
+        display:flex;
+        width: 100%;
+        border: 1px solid #000;
+        flex-wrap: wrap;
+      }
+      
+      main a{
+        width: 150px ;
+        height:80px ;
+        margin:10px auto;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 3px 3px 15px #646464;
+        text-decoration: none;
+        color: #000;
+        background-image:linear-gradient(to left,#fff,red);
+      }
+      
+      /*main a div{
+        osition: relative;
+        width: 150px ;
+        height:80px ;
+        box-shadow: 3px 3px 15px #646464;
+        overflow: hidden;
+        display: flex;
+        background-image:linear-gradient(to left,#fff,red);
+      }
+    
+     /*main a div::before{
+      content:'';
+      position:absolute;
+      width:150px ;
+      height:80px;
+      background-image:linear-gradient(to left,#fff,red);
+      }*/
+      
+      main a div span{
+      width:150px ;
+      height:80px;
+      background:#fff;
+      margin-left:6px ;
+      z-index:1;
+      display:grid;
+      place-items: center;
+      border-radius: 75px 0px 0px 0px;
+     }
+     
+     
+ </style>
+  </head>
+  <body>
+  <!--This -->
+  <script src="Navber.js"></script>
+  <header>
+    <i id="nav"class="fa fa-navicon fa-2x"onclick="ppo()"></i>
+    
+    <div class="log_in"onclick="log_in()">
+      <p><i>Log In</i></p>
+    </div>
+ </header>
+ 
+ 
+ 
+ 
+  <img src="EducationPic/HomePageMain.jpg"style="width:100%;">
+  
+  <h2 class="title"style="text-align:center;">বিষয় সমূহ </h2>
+  
+  <main class="main">
+    
+    <a href="programming_skill.html"><div class="box">
+      <span>
+        <img style="width:65px;border-radius:45%;"src="EducationPic/skill.jpg">
+        <p>প্রোগামিং স্কিল</p>
+        </span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span>
+        <img style="width:45px;border-radius:30%;"src="EducationPic/islamic_corner.jpg">
+        <p>  ইসলামিক কর্ণার </p>
+      </span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span>
+        <img style="width:100px;border-radius:55% 0%;"src="EducationPic/English.png">
+        <p>ইংরেজি</p>
+      </span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span>
+       <img style="width:100px;border-radius:55% 0%;"src="EducationPic/primary_books.jpg">
+       <p>১ম-৫ম শ্রেণি</p>
+      </span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span>
+        <img style="width:100px;border-radius:55% 0%;"src="EducationPic/">
+      </span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span></span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span></span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span></span>
+    </div></a>
+    
+    <a href="come.html"><div>
+      <span></span>
+    </div></a>
+    
+    <a href="come.html"><div class="box">
+      <span></span>
+    </div></a>
+  </main>
+  
+   <footer>
+     <div class="footer_icos">
+       <i class="fa fa-facebook-square"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-twitter-square"></i>
+       <i class="fa fa-youtube-play"></i>
+     </div>
+   <p>© Copyright 2023 Code Remind. All rights reserved...</p>
+   </footer>
+   
+   <script src="login.js"></script>
+   <script>
+     //comment
+   let main = document.querySelector(".main");
+   main.children[0].style.background="#48a7ff";
+   main.children[1].style.background="green";
+   main.children[2].style.background="red";
+   main.children[3].style.background="#ff8400";
+   //main.children[4].style.background="green";
+   //main.children[5].style.background="green";
+   
+  
+   </script>
+  </body>
+</hlml>
